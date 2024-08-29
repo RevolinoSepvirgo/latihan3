@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Table">
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow
+        android:background="#FFFFF0">
+        <TextView
+            android:layout_column="1"
+            android:text="OPEN"
+            android:padding="3dp" />
+
+        <TextView
+            android:text="CTRL + Q"
+            android:gravity="right"
+            android:padding="3dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Save"
+            android:padding="3dp"
+            android:background="#FFFFF0"/>
+        <TextView
+            android:text="CTRL + S"
+            android:gravity="right"
+            android:padding="3dp" />
+
+    </TableRow>
+    <TableRow
+        android:background="#FF00FF">
+        <TextView
+            android:layout_column="1"
+            android:text="QUIT"
+            android:padding="3dp" />
+
+        <TextView
+            android:text="CTRL + Q"
+            android:gravity="right"
+            android:padding="3dp" />
+    </TableRow>
+
+    <TableRow
+        android:background="#FF00FF">
+        <TextView
+            android:layout_column="1"
+            android:text="Exit"
+            android:padding="3dp"/>
+        <TextView
+            android:text="CTRL + E"
+            android:gravity="right"
+            android:padding="3dp" />
+    </TableRow>
+
+
+
+
+
+</TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
